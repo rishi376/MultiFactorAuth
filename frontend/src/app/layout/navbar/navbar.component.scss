@@ -1,0 +1,25 @@
+.buttons {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-right: 50px;
+    font-size: x-large;
+}
+
+.link {
+    color: white;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 128, 0, 0.589);
+    font-size: larger;
+    align-items: center;
+    padding: 5px 20px;
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}

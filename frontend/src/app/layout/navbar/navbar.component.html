@@ -1,0 +1,13 @@
+
+<div class="navbar">
+    <div class="heading">
+        <h1>Multi factor Authentication</h1>
+    </div>
+    <div class="list">
+        <ul class="buttons">
+            <li><button (click)="login()" *ngIf="!isLoggedIn" class="btn btn-primary">Login</button></li>
+            <li><button (click)="register()" *ngIf="!isLoggedIn" class="btn btn-primary">Register</button></li>
+            <li><a (click)="logout()" *ngIf="isLoggedIn" class="btn btn-danger">Log out</a></li>
+        </ul>
+    </div>
+</div>

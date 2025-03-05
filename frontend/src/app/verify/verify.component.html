@@ -1,0 +1,10 @@
+<div class="card">
+    <form (ngSubmit)="onVerify()">
+        <div class="">
+            <label for="code">Verification Code: </label>
+            <input type="text" id="code" [(ngModel)]="code" name="code" required>
+        </div>
+        <button type="submit">Verify</button>
+        <p *ngIf="errorMessage"> {{ errorMessage }} </p>
+    </form>
+</div>
